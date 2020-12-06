@@ -1,0 +1,28 @@
+{
+  "env": {
+    "node": true,
+    "browser": true 
+  },
+  "plugins": [
+    "jest"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "linebreak-style": 0,
+    "import/no-named-as-default": 0
+  }
+}
