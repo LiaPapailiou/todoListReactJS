@@ -24,13 +24,13 @@ const ListTodos = (props) => {
                   onClick={() => props.onCompleteClick(item.id)}
                   role="presentation"
                 >
-                  <i className="far fa-check-square" />
+                  <i className="fas fa-check" />
                 </td>
                 <td
                   onClick={() => props.onDeleteClick(item.id)}
                   role="presentation"
                 >
-                  <i className="fas fa-minus-square" />
+                  <i className="fas fa-trash" />
                 </td>
               </tr>
             ))
