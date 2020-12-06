@@ -1,9 +1,9 @@
 import shortid from 'shortid';
-import  INITIAL_STATE from './initialState';
+import INITIAL_STATE from './initialState';
 import {
   ADD_TODO,
   COMPLETE_TODO,
-  DELETE_TODO
+  DELETE_TODO,
 } from './types';
 
 const todoReducer = (state, action) => {
@@ -24,7 +24,7 @@ const todoReducer = (state, action) => {
         ...state,
         todo: state.todo.map((todo) => {
           if (todo.id === action.id) {
-            return { ...todo, completed: !todo.completed};
+            return { ...todo, completed: !todo.completed };
           }
           return todo;
         }),

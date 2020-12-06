@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const AddTodo = (props) => {
   const [formData, setFormData] = useState({
@@ -40,6 +39,6 @@ const AddTodo = (props) => {
 
 AddTodo.propTypes = {
   onSubmit: PropTypes.func.isRequired,
-}
+};
 
 export default AddTodo;

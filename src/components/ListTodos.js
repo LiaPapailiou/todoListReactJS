@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import PropTypes from 'prop-types'
+import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import shortid from 'shortid';
 import TodoContext from '../TodoContext';
 
@@ -47,4 +47,3 @@ ListTodos.propTypes = {
 };
 
 export default ListTodos;
-

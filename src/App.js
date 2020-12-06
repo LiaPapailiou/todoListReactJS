@@ -5,6 +5,11 @@ import TodoContext from './TodoContext';
 import INITIAL_STATE from './initialState';
 import AddTodo from './components/AddTodo';
 import List from './components/ListTodos';
+import {
+  ADD_TODO,
+  COMPLETE_TODO,
+  DELETE_TODO,
+} from './types';
 import './App.css';
 
 function App() {
